@@ -1,29 +1,47 @@
-# Create React Express App
+# DVM-BUDDY
 
-## About This Boilerplate
+The scope of this project was to create a user friendly experience for clients at their local veterinarian's office. Through this app, after a client creates an account, he/she can schedule appointments and find different service types for their pets such as walker and sitter. Through this classified section, a user can filter through the services by zipcode, distance and type of service. As an admin, he/she has access to view all the employee information, client information and upcoming appointments. In addition, the admin can create, update, and delete new reservation slots and classified cards. With this app, we hope to assist small veterinary clinics to improve their website and bring new clients in.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Table of Contents
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+- [URLs](#URLs)
+- [Usage](#usage)
+- [Questions](#questions)
+- [License](#license)
 
-## Starting the app locally
+## URLs
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+1. Deployed URL (Heroku):
+   (https://desolate-mountain-77128.herokuapp.com)
 
-```
-npm install
-```
+2. Github Page URL:
+   [Github](https://github.com/Songhee95/dvm-buddy)
 
-This should install node modules within the server and the client folder.
+## Usage
 
-After both installations complete, run the following command in your terminal:
+![GitHub Logo](./client/public/images/1.PNG)
+![GitHub Logo](./client/public/images/2.PNG)
+![GitHub Logo](./client/public/images/3.PNG)
 
-```
-npm start
-```
+## Questions
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+If you have any questions or need any help, feel free to contact me here <br>
+Github page: [Github](https://github.com/songhee95/) <br>
+Email: thdgml5537@gmail.com
 
-## Deployment (Heroku)
+## License
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+Copyright (c) 2020 SONGHEE YIM
+
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
