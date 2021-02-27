@@ -174,9 +174,10 @@ const AppointmentEditPage = () => {
                     <td>{item.apptDate}</td>
                     <td>{item.apptTime}</td>
                     {/* <td>{item.user ? item.user.email : ""}</td> */}
-                    {/* <td>
+                    <td>
                       {inEditMode.status && inEditMode.rowKey === item._id ? (
                         <input
+                        className="email-field"
                           defaultValue=""
                           onChange={(e) => setcustomerId(e.target.value)}
                         />
@@ -185,7 +186,7 @@ const AppointmentEditPage = () => {
                       ) : (
                         ""
                       )}
-                    </td> */}
+                    </td>
 
                     <td>
                       {inEditMode.status && inEditMode.rowKey === item._id ? (
